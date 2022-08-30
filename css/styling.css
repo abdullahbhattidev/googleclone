@@ -1,0 +1,637 @@
+body{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;  
+}
+
+/* gmail text design*/
+.gmail{
+    position: absolute;
+    right: 250px;
+    top: 15px;
+    display: inline-block;
+}
+/*images text design*/
+.images{
+    position: absolute;
+    right: 190px;
+    top: 15px;
+    display: inline-block;
+}
+/* gmail link design*/
+.gmaillink{
+    text-decoration: none;
+    color: #000;
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+}
+/* images link design*/
+.gimages{
+    text-decoration: none;
+    color: #000;
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+}
+
+/*UI action*/
+.gmaillink:hover{
+    text-decoration: underline;
+}
+/* UI action*/
+.gimages:hover{
+    text-decoration: underline;
+}
+
+/* google logo design and positioning*/
+.glogo{
+    position: absolute;
+    left: 630px;
+    right: 400px;
+    top: 160px;
+    display: inline-block;
+}
+
+/* contain UI action button + app bar screen*/
+.appbar{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 140px;
+    top: 3px;
+    display: inline-block;
+    cursor: pointer;
+    
+   /*material symbol for to open app bar screen*/ 
+}
+
+.material-symbols-outlined {
+    color: #5f6368;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 500,
+    'GRAD' -25,
+    'opsz' 24,
+  }
+
+/* UI action */
+.material-symbols-outlined:hover{
+    outline: none;
+    background-color: #dadbdd;  
+}  
+
+/* contains all google apps*/
+.appbarscr{
+    width: 328px;
+    height: 448px;
+    background-color: white;
+    visibility: hidden; 
+    overflow: hidden;
+    position:absolute;
+    right: 0px;
+    border-style:solid;
+    box-shadow:  0px 1px 2px 0pxrgba(60,64,67,.30),0px 2px 6px 2pxrgba(60,64,67,.15);
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,.2);
+    display:inline-block;
+}
+
+/* UI action*/
+.appbar:hover>.appbarscr{
+    overflow-y: scroll;
+    visibility: visible;  
+
+    
+}
+
+/*  custom scrollbar*/
+::-webkit-scrollbar{
+    width: 16px;
+    
+}
+::-webkit-scrollbar-thumb{
+    background: #dadce0;
+    background-clip: padding-box;
+    border: 4px solid transparent;
+    border-radius: 8px;
+    
+}
+::-webkit-scrollbar-track{
+    background: none;
+    border: none;
+}
+/*---------------end scrollbar--------*/
+
+
+/* account sign in */
+.account{
+    width: 84px;
+    height: 84px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+}
+/* UI action*/
+.account:hover{
+    outline: none;
+    background-color: #dadbdd;
+}
+
+/* google search*/
+.search{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+/* UI action*/
+.search:hover{
+    outline: none;
+    background-color: #dadbdd;
+}
+
+/* google business app*/
+.business{
+
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    top: 10px;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    display: inline-block;
+    
+}
+/* UI action*/
+.business:hover{
+    outline: none;
+    background-color: #dadbdd;
+}
+
+/* youtube*/
+.youtube{
+    width: 84px;
+    height: 84px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+}
+/* UI action*/
+.youtube:hover{
+    outline: none;
+    background-color: #dadbdd;
+}
+
+/* playstore app*/
+.playstore{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+/* UI action*/
+.playstore:hover{
+    outline: none;
+    background-color: #dadbdd;
+}
+
+/* google news app*/
+.news{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    display: inline-block;
+}
+/* UI action*/
+.news:hover{
+    outline: none;
+    background-color: #dadbdd;
+}
+
+/* google mail app*/
+.gmailapp{
+    width: 84px;
+    height: 84px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+}
+/* UI action*/
+.gmailapp:hover{
+    outline: none;
+    background-color: #dadbdd;
+}
+
+/* google meet app*/
+.meet{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+/* UI action*/
+.meet:hover{
+    outline: none;
+    background-color: #dadbdd;
+}
+
+/* google chat app*/
+.chat{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    display: inline-block;
+}
+/* UI action*/
+.chat:hover{
+    outline: none;
+    background-color: #dadbdd;
+}
+
+/* google contacts app*/
+.contact{
+    width: 84px;
+    height: 84px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+}
+/* UI action*/
+.contact:hover{
+    outline: none;
+    background-color: #dadbdd;
+}
+
+/* google drive app*/
+.drive{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+/* UI action*/
+.drive:hover{
+    outline: none;
+    background-color: #dadbdd;
+}
+
+/* google calender app*/
+.calender{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    display: inline-block;
+}
+/* UI action*/
+.calender:hover{
+    outline: none;
+    background-color: #dadbdd;
+}
+
+/* google translate app*/
+.translate{
+    width: 84px;
+    height: 84px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+}
+/* UI action*/
+.translate:hover{
+    outline: none;
+    background-color: #dadbdd;
+}
+
+/* google Duo app*/
+.duo{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+/* UI action*/
+.duo:hover{
+    outline: none;
+    background-color: #dadbdd;
+}
+
+.shopping{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    display: inline-block;
+}
+.shopping:hover{
+    outline: none;
+    background-color: #dadbdd;
+}
+
+.login-signup{
+    width: 48px;
+    height: 16px;
+    padding: 9px 23px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    display: inline-block;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.login-signup:hover{
+    background: #4388e3;
+}
+ /* signin link*/
+.signin{
+
+    width: 48px;
+    height: 16px;
+    padding: 9px 23px;
+    font-family: "Google Sans",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    right: 2px;
+    bottom: 1px;
+}
+
+.searchbar{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: calc(632px + 6px);
+    width: auto;
+    max-width: 584px;
+    position: relative;
+    top: 270px;
+}
+.searchbar:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+.searchicon{
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    color: #9aa0a6;
+    display: inline-block;
+    fill: currentColor;
+
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' -25,
+  'opsz' 24        
+}
+
+.searchtext{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    width: 490px;
+    font-size: 16px;
+    font-family: arial,sans-serif;
+    position: absolute;
+    top: 42px;
+    left: 45px;
+}
+
+.searchtext:focus+.searchbar{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+.googlevoice{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    line-height: 44px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+}
+
+.searchbutton{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    top: 290px;
+    right: 0px;
+    display: inline-block;
+}
+.searchbutton:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+.lucky{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    top: 286px;
+    right: 0px;
+    display: inline-block;
+    text-decoration: none;
+    align-items: center;
+}
+.lucky:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+.googlelang{
+    position: relative;
+    top: 300px;
+    line-height: 28px;
+    font-family:arial,sans-serif; ;
+
+}
+.langlink{
+    text-decoration: none;
+    color: #1a0dab;
+    font-size: small;
+}
+.langlink:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    
+    height: 95.400px;
+    background-color:  rgb(242, 242, 242);
+    position:relative;
+    top: 483px;
+}
+.location{
+    height: 17.600px;
+    padding: 15px 30px;
+    font-family: arial,sans-serif;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.bottomfooter{
+    height: 46.800px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottomfooterlinks{
+    padding: 15px 15px;
+    font-family: arial,sans-serif;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.bottomfooterlinks:hover{
+    outline: none;
+    text-decoration: underline;
+}
+
+/* all links font design*/
+a{
+    font-family: "Google Sans",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-align: center;
+}
+
+
+/* images size adjusted*/
+.appbarimages{
+    width: 35px;
+    height: 40px;
+}
+.appbarimages1{
+    width: 50px;
+    height: 50px;
+}
+
